@@ -14,11 +14,11 @@ function Home() {
 
       <div className='homeBody'>
         <div className='posts'>
-          <div>
+          <div className='posts__div'>
             <img src="" alt="profile Picture" />
           </div>
 
-          <div>
+          <div className='posts__div posts__input'>
             <InputGroup className="mb-3">
               <Form.Control
                 placeholder="What's on your mind Matome"
@@ -28,10 +28,15 @@ function Home() {
             </InputGroup>
           </div>
 
-          <div>
-            <BsImages />
+          <div className='posts__div'>
+            <div className='photes'>
+              <BsImages />
+              <p>Photo</p>
+            </div>
           </div>
+        </div>
 
+        <div className='stories'>
 
         </div>
       </div>
