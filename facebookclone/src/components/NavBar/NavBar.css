@@ -1,4 +1,29 @@
+.navbar__page {
+    margin: 1%;
+}
+
 .topNav {
     display: flex;
+
+}
+
+
+.topnav__logo {
+    color: rgba(66 103 178);
+
     
+}
+
+.topnav__icons {
+    display: flex;
+    justify-content: space-between;
+    margin-left: 55%;
+    width: 100%;
+}
+
+
+.bottomNav {
+    display: flex;
+    justify-content: space-around;
+    width: 100%;
 }
