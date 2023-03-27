@@ -1,16 +1,31 @@
+import ReactDOM from "react-dom/client";
+import { BrowserRouter, Routes, Route } from "react-router-dom";
 
 import 'bootstrap/dist/css/bootstrap.min.css';
-import {FriendsPost, NavBar, Posts, Stories} from './components'
+import {Home, NavBar, Friends, Shorts, Groups, Notification, Message } from './components'
 
 import './App.css';
+
 
 function App() {
   return (
     <div className="App">
-     <NavBar />
-     <Posts />
-     <Stories />
-     <FriendsPost />
+
+      {/* <Home /> */}
+      
+     <BrowserRouter>
+      <Routes>
+        <Route path="/" element={<NavBar />}>
+          <Route index element={<Home />} />
+          <Route path="friends" element={<Friends />} />
+          <Route path="shorts" element={<Shorts />} />
+          <Route path="message" element={<Message />} />
+          <Route path="groups" element={<Groups />} />
+          <Route path="notification" element={<Notification />} />
+        </Route>
+      </Routes>
+    </BrowserRouter>
+
     </div>
   );
 }

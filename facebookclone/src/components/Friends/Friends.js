@@ -1,11 +1,11 @@
 import React from 'react'
 
-import './Posts.css'
+import './Friends.css'
 
-function Posts() {
+function Friends() {
   return (
     <div>Posts</div>
   )
 }
 
-export default Posts
+export default Friends

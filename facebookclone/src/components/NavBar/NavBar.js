@@ -1,4 +1,5 @@
 import React from 'react'
+import { Outlet, Link } from "react-router-dom";
 
 import { GoSearch } from 'react-icons/go';
 import { HiMenu } from 'react-icons/hi';
@@ -21,18 +22,22 @@ function NavBar() {
           <h2> <GoSearch /></h2>
           <h2> <HiMenu /></h2>
         </div>
+        
       </div>
+      
       <div className='bottomNav'>
-        <h3><HiOutlineHome /></h3>
-        <h3><FaUserFriends /> </h3>
-        <h3><TbMessageCircle /> </h3>
-        <h3><BsFillDisplayFill /> </h3>
-        <h3><IoMdNotificationsOutline /> </h3>
-        <h3><HiUserGroup /> </h3>
+        <h3 className='bottomNav__link'> <Link to='/'> <HiOutlineHome /> </Link>  </h3>
+        <h3 className='bottomNav__link'> <Link to='/friends'> <FaUserFriends /> </Link>  </h3>
+        <h3 className='bottomNav__link'> <Link to='/shorts'> <TbMessageCircle /> </Link>  </h3>
+        <h3 className='bottomNav__link'> <Link to='/shorts'> <BsFillDisplayFill /> </Link>  </h3>
+        <h3 className='bottomNav__link'> <Link to='/notification'> <IoMdNotificationsOutline /> </Link>  </h3>
+        <h3 className='bottomNav__link'> <Link to='/groups'> <HiUserGroup /> </Link>  </h3>
 
       </div>
-
+      <hr/>
+      <Outlet />
     </div>
+    
   )
 }
 
