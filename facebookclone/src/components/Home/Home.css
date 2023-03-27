@@ -23,3 +23,31 @@
 .photes {
     justify-content: center;
 }
+
+/*================   Stories   =====================*/
+
+
+.stories {
+    display: flex;
+    /* overflow-x: hidden; */
+    overflow-y: auto;
+    height: initial;
+    width: initial;
+    transform: none;
+    
+}
+
+/* .stories img {
+   display: flex;
+} */
+
+
+.cards {
+    border: 30px solid red;
+    width: 30%;
+   
+}
+
+.Card {
+    width: auto;
+}
