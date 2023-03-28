@@ -99,11 +99,12 @@
     border-radius: 0;
 }
  
-.reaction__button button {
+.reaction__button button,
+.reaction__button a {
     border: none;
     border-radius: 20px;
     margin: 2%;
-    width: 29.2%;
+    width: 29%;
     align-items: center;
     background-color: whitesmoke;
     color: black;
