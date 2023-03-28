@@ -61,14 +61,14 @@ function Home() {
 
           <div className='stories__Cards'>
             <Card >
-              <Card.Img variant="top" src={Ciara}  />
+              <Card.Img variant="top" src={Ciara} />
 
             </Card>
           </div>
 
           <div className='stories__Cards'>
             <Card >
-              <Card.Img variant="top" src={Leo}  />
+              <Card.Img variant="top" src={Leo} />
             </Card>
           </div>
 
@@ -90,137 +90,80 @@ function Home() {
         {/*================= NEWS FEED PART  =================*/}
         <div className='newsFeed'>
 
-          <div className='newsfeed__cards'>
+        <div className='newsfeed__cards'>
             <Card style={{ width: '18rem' }}>
-              <Card.Img variant="top" src="holder.js/100px180" />
               <Card.Body>
                 <Card.Title>Card Title</Card.Title>
                 <Card.Text>
                   Some quick example text to build on the card title and make up the
                   bulk of the card's content.
                 </Card.Text>
-                <Button variant="primary">Go somewhere</Button>
+                <Card.Img variant="top" src={Leo} />
+                <div className='reaction__button'>
+                  <Button variant="primary">Like</Button>
+                  <Button variant="primary">Comment</Button>
+                  <Button variant="primary">Share</Button>
+                </div>
               </Card.Body>
             </Card>
           </div>
 
           <div className='newsfeed__cards'>
             <Card style={{ width: '18rem' }}>
-              <Card.Img variant="top" src="holder.js/100px180" />
               <Card.Body>
                 <Card.Title>Card Title</Card.Title>
                 <Card.Text>
                   Some quick example text to build on the card title and make up the
                   bulk of the card's content.
                 </Card.Text>
-                <Button variant="primary">Go somewhere</Button>
+                <Card.Img variant="top" src={Ciara} />
+                <div className='reaction__button'>
+                  <Button variant="primary">Like</Button>
+                  <Button variant="primary">Comment</Button>
+                  <Button variant="primary">Share</Button>
+                </div>
               </Card.Body>
             </Card>
           </div>
 
           <div className='newsfeed__cards'>
             <Card style={{ width: '18rem' }}>
-              <Card.Img variant="top" src="holder.js/100px180" />
               <Card.Body>
                 <Card.Title>Card Title</Card.Title>
                 <Card.Text>
                   Some quick example text to build on the card title and make up the
                   bulk of the card's content.
                 </Card.Text>
-                <Button variant="primary">Go somewhere</Button>
+                <Card.Img variant="top" src={Sarra} />
+                <div className='reaction__button'>
+                  <Button variant="primary">Like</Button>
+                  <Button variant="primary">Comment</Button>
+                  <Button variant="primary">Share</Button>
+                </div>
               </Card.Body>
             </Card>
           </div>
 
           <div className='newsfeed__cards'>
             <Card style={{ width: '18rem' }}>
-              <Card.Img variant="top" src="holder.js/100px180" />
               <Card.Body>
                 <Card.Title>Card Title</Card.Title>
                 <Card.Text>
                   Some quick example text to build on the card title and make up the
                   bulk of the card's content.
                 </Card.Text>
-                <Button variant="primary">Go somewhere</Button>
+                <Card.Img variant="top" src={Tic} />
+                <div className='reaction__button'>
+                  <Button variant="primary">Like</Button>
+                  <Button variant="primary">Comment</Button>
+                  <Button variant="primary">Share</Button>
+                </div>
               </Card.Body>
             </Card>
           </div>
-
-
-          <div className='newsfeed__cards'>
-            <Card style={{ width: '18rem' }}>
-              <Card.Img variant="top" src="holder.js/100px180" />
-              <Card.Body>
-                <Card.Title>Card Title</Card.Title>
-                <Card.Text>
-                  Some quick example text to build on the card title and make up the
-                  bulk of the card's content.
-                </Card.Text>
-                <Button variant="primary">Go somewhere</Button>
-              </Card.Body>
-            </Card>
-          </div>
-
-          <div className='newsfeed__cards'>
-            <Card style={{ width: '18rem' }}>
-              <Card.Img variant="top" src="holder.js/100px180" />
-              <Card.Body>
-                <Card.Title>Card Title</Card.Title>
-                <Card.Text>
-                  Some quick example text to build on the card title and make up the
-                  bulk of the card's content.
-                </Card.Text>
-                <Button variant="primary">Go somewhere</Button>
-              </Card.Body>
-            </Card>
-          </div>
-
-          <div className='newsfeed__cards'>
-            <Card style={{ width: '18rem' }}>
-              <Card.Img variant="top" src="holder.js/100px180" />
-              <Card.Body>
-                <Card.Title>Card Title</Card.Title>
-                <Card.Text>
-                  Some quick example text to build on the card title and make up the
-                  bulk of the card's content.
-                </Card.Text>
-                <Button variant="primary">Go somewhere</Button>
-              </Card.Body>
-            </Card>
-          </div>
-
-          <div className='newsfeed__cards'>
-            <Card style={{ width: '18rem' }}>
-              <Card.Img variant="top" src="holder.js/100px180" />
-              <Card.Body>
-                <Card.Title>Card Title</Card.Title>
-                <Card.Text>
-                  Some quick example text to build on the card title and make up the
-                  bulk of the card's content.
-                </Card.Text>
-                <Button variant="primary">Go somewhere</Button>
-              </Card.Body>
-            </Card>
-          </div>
-
-          <div className='newsfeed__cards'>
-            <Card style={{ width: '18rem' }}>
-              <Card.Img variant="top" src="holder.js/100px180" />
-              <Card.Body>
-                <Card.Title>Card Title</Card.Title>
-                <Card.Text>
-                  Some quick example text to build on the card title and make up the
-                  bulk of the card's content.
-                </Card.Text>
-                <Button variant="primary">Go somewhere</Button>
-              </Card.Body>
-            </Card>
-          </div>
-
-
+          
 
         </div>
-
       </div>
     </>
 

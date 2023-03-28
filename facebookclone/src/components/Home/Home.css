@@ -80,8 +80,13 @@
 
 .newsfeed__cards .card {
     border: 2px solid blue;
+    border: 1px rgb(73, 73, 73) solid;
     margin-left: auto;
     margin-right: auto;
-    margin-bottom: 5px;
+    margin-bottom: 10px;
     width: 100%;
+}
+
+.reaction__button button {
+    margin: 5px;
 }
