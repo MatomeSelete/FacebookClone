@@ -26,8 +26,8 @@ function Home() {
 
         {/*====================== POSTS PART  =====================*/}
         <div className='posts'>
-          <div className='posts__div'>
-            <img src={Matome} alt="profile Picture" />
+          <div className='posts__div' >
+            <img className='posts__div__img' src={Matome} alt="profile Picture" />
           </div>
 
           <div className='posts__div posts__input'>
@@ -48,79 +48,180 @@ function Home() {
           </div>
         </div>
 
+
+
         {/*================= STORIES PART  =================*/}
 
         <div className='stories'>
+          <div className='stories__Cards'>
+            <Card >
+              <Card.Img variant="top" src={Tic} />
+            </Card>
+          </div>
 
-          <div className='cards'>
+          <div className='stories__Cards'>
+            <Card >
+              <Card.Img variant="top" src={Ciara}  />
+
+            </Card>
+          </div>
+
+          <div className='stories__Cards'>
+            <Card >
+              <Card.Img variant="top" src={Leo}  />
+            </Card>
+          </div>
+
+          <div className='stories__Cards'>
+            <Card >
+              <Card.Img variant="top" src={Sarra} />
+            </Card>
+          </div>
+
+          <div className='stories__Cards' >
+            <Card >
+              <Card.Img variant="top" src={Tic} />
+
+            </Card>
+          </div>
+        </div>
+
+
+        {/*================= NEWS FEED PART  =================*/}
+        <div className='newsFeed'>
+
+          <div className='newsfeed__cards'>
             <Card style={{ width: '18rem' }}>
-              <Card.Img variant="top" src={Tic} style={{height:"100px", width:"100px" }}/>
-              {/* <Card.Body>
+              <Card.Img variant="top" src="holder.js/100px180" />
+              <Card.Body>
                 <Card.Title>Card Title</Card.Title>
-                
-                
-              </Card.Body> */}
+                <Card.Text>
+                  Some quick example text to build on the card title and make up the
+                  bulk of the card's content.
+                </Card.Text>
+                <Button variant="primary">Go somewhere</Button>
+              </Card.Body>
             </Card>
-
           </div>
 
-          <div className='cards'>
+          <div className='newsfeed__cards'>
             <Card style={{ width: '18rem' }}>
-              <Card.Img variant="top" src={Ciara} style={{height:"100px", width:"100px" }}/>
-              {/* <Card.Body>
+              <Card.Img variant="top" src="holder.js/100px180" />
+              <Card.Body>
                 <Card.Title>Card Title</Card.Title>
-                
-                
-              </Card.Body> */}
+                <Card.Text>
+                  Some quick example text to build on the card title and make up the
+                  bulk of the card's content.
+                </Card.Text>
+                <Button variant="primary">Go somewhere</Button>
+              </Card.Body>
             </Card>
-
           </div>
 
-          <div className='cards'>
+          <div className='newsfeed__cards'>
             <Card style={{ width: '18rem' }}>
-              <Card.Img variant="top" src={Leo} style={{height:"100px", width:"100px" }}/>
-              {/* <Card.Body>
+              <Card.Img variant="top" src="holder.js/100px180" />
+              <Card.Body>
                 <Card.Title>Card Title</Card.Title>
-                
-                
-              </Card.Body> */}
+                <Card.Text>
+                  Some quick example text to build on the card title and make up the
+                  bulk of the card's content.
+                </Card.Text>
+                <Button variant="primary">Go somewhere</Button>
+              </Card.Body>
             </Card>
-
           </div>
 
-          <div className='cards'>
+          <div className='newsfeed__cards'>
             <Card style={{ width: '18rem' }}>
-              <Card.Img variant="top" src={Sarra} style={{height:"100px", width:"100px" }}/>
-              {/* <Card.Body>
+              <Card.Img variant="top" src="holder.js/100px180" />
+              <Card.Body>
                 <Card.Title>Card Title</Card.Title>
-                
-                
-              </Card.Body> */}
+                <Card.Text>
+                  Some quick example text to build on the card title and make up the
+                  bulk of the card's content.
+                </Card.Text>
+                <Button variant="primary">Go somewhere</Button>
+              </Card.Body>
             </Card>
-
           </div>
 
-          <div className='cards' >
-            <Card style={{ width: '50%', }}>
-              <Card.Img variant="top" src={Tic} style={{height:"100px", width:"80px" }}/>
-              {/* <Card.Body>
-                <Card.Title>Card Title</Card.Title>
-                
-                
-              </Card.Body> */}
-            </Card>
 
+          <div className='newsfeed__cards'>
+            <Card style={{ width: '18rem' }}>
+              <Card.Img variant="top" src="holder.js/100px180" />
+              <Card.Body>
+                <Card.Title>Card Title</Card.Title>
+                <Card.Text>
+                  Some quick example text to build on the card title and make up the
+                  bulk of the card's content.
+                </Card.Text>
+                <Button variant="primary">Go somewhere</Button>
+              </Card.Body>
+            </Card>
           </div>
+
+          <div className='newsfeed__cards'>
+            <Card style={{ width: '18rem' }}>
+              <Card.Img variant="top" src="holder.js/100px180" />
+              <Card.Body>
+                <Card.Title>Card Title</Card.Title>
+                <Card.Text>
+                  Some quick example text to build on the card title and make up the
+                  bulk of the card's content.
+                </Card.Text>
+                <Button variant="primary">Go somewhere</Button>
+              </Card.Body>
+            </Card>
+          </div>
+
+          <div className='newsfeed__cards'>
+            <Card style={{ width: '18rem' }}>
+              <Card.Img variant="top" src="holder.js/100px180" />
+              <Card.Body>
+                <Card.Title>Card Title</Card.Title>
+                <Card.Text>
+                  Some quick example text to build on the card title and make up the
+                  bulk of the card's content.
+                </Card.Text>
+                <Button variant="primary">Go somewhere</Button>
+              </Card.Body>
+            </Card>
+          </div>
+
+          <div className='newsfeed__cards'>
+            <Card style={{ width: '18rem' }}>
+              <Card.Img variant="top" src="holder.js/100px180" />
+              <Card.Body>
+                <Card.Title>Card Title</Card.Title>
+                <Card.Text>
+                  Some quick example text to build on the card title and make up the
+                  bulk of the card's content.
+                </Card.Text>
+                <Button variant="primary">Go somewhere</Button>
+              </Card.Body>
+            </Card>
+          </div>
+
+          <div className='newsfeed__cards'>
+            <Card style={{ width: '18rem' }}>
+              <Card.Img variant="top" src="holder.js/100px180" />
+              <Card.Body>
+                <Card.Title>Card Title</Card.Title>
+                <Card.Text>
+                  Some quick example text to build on the card title and make up the
+                  bulk of the card's content.
+                </Card.Text>
+                <Button variant="primary">Go somewhere</Button>
+              </Card.Body>
+            </Card>
+          </div>
+
 
 
         </div>
+
       </div>
-
-
-
-
-
-
     </>
 
   )

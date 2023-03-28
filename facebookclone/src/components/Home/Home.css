@@ -1,17 +1,25 @@
+
+
 .posts {
     /* border: 2px solid red; */
     display: flex;
     justify-content: center;
     width: 100%;
-    
-
+    background-color: white;
+    padding-top: 20px;
+    margin-top: 5px;
+    margin-bottom: 5px;
 }
 
 .posts__div {
     /* border: 2px solid red; */
     width: 20%;
     text-align: center;
+}
 
+.posts__div__img {
+
+    border-radius: 50%;
 }
 
 .posts__input {
@@ -24,7 +32,7 @@
     justify-content: center;
 }
 
-/*================   Stories   =====================*/
+/*===============================   Stories   ================================*/
 
 
 .stories {
@@ -34,7 +42,7 @@
     height: initial;
     width: initial;
     transform: none;
-    
+    margin-bottom: 5px;
 }
 
 /* .stories img {
@@ -42,12 +50,38 @@
 } */
 
 
-.cards {
-    border: 30px solid red;
+.stories__Cards {
+    /* border: 3px solid blue; */
+    background-color: white;
     width: 30%;
-   
+    padding: 5px;
 }
 
-.Card {
-    width: auto;
+.card img {
+    border-radius: 10px;
+    height: 150px;
+    width: 100px;
+}
+
+.card  {
+    /* border: 3px solid red; */
+    /* width: 98%; */
+    border-radius: 10px;
+    margin-left: 2px;
+    margin-right: 2px;
+}
+
+/*=============================   NEWS FEED   =============================*/
+
+.newsFeed {
+    border: 2px solid red;
+    
+}
+
+.newsfeed__cards .card {
+    border: 2px solid blue;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 5px;
+    width: 100%;
 }
