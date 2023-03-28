@@ -7,7 +7,9 @@ import Button from 'react-bootstrap/Button';
 import Card from 'react-bootstrap/Card';
 
 import { BsImages } from 'react-icons/bs';
-
+import { AiOutlineLike } from 'react-icons/ai';
+import { BiMessage } from 'react-icons/bi';
+import { RiShareForwardLine } from 'react-icons/ri';
 
 import './Home.css'
 
@@ -91,7 +93,7 @@ function Home() {
         <div className='newsFeed'>
 
         <div className='newsfeed__cards'>
-            <Card style={{ width: '18rem' }}>
+            <Card >
               <Card.Body>
                 <Card.Title>Card Title</Card.Title>
                 <Card.Text>
@@ -100,16 +102,16 @@ function Home() {
                 </Card.Text>
                 <Card.Img variant="top" src={Leo} />
                 <div className='reaction__button'>
-                  <Button variant="primary">Like</Button>
-                  <Button variant="primary">Comment</Button>
-                  <Button variant="primary">Share</Button>
+                <Button variant="primary"> <AiOutlineLike />1.5k </Button>
+                  <Button variant="primary"> <BiMessage />300 </Button>
+                  <Button variant="primary"> <RiShareForwardLine />1k </Button>
                 </div>
               </Card.Body>
             </Card>
           </div>
 
           <div className='newsfeed__cards'>
-            <Card style={{ width: '18rem' }}>
+            <Card >
               <Card.Body>
                 <Card.Title>Card Title</Card.Title>
                 <Card.Text>
@@ -118,16 +120,16 @@ function Home() {
                 </Card.Text>
                 <Card.Img variant="top" src={Ciara} />
                 <div className='reaction__button'>
-                  <Button variant="primary">Like</Button>
-                  <Button variant="primary">Comment</Button>
-                  <Button variant="primary">Share</Button>
+                <Button variant="primary"> <AiOutlineLike />5.9k </Button>
+                  <Button variant="primary"> <BiMessage />10.k </Button>
+                  <Button variant="primary"> <RiShareForwardLine />2.9k </Button>
                 </div>
               </Card.Body>
             </Card>
           </div>
 
           <div className='newsfeed__cards'>
-            <Card style={{ width: '18rem' }}>
+            <Card >
               <Card.Body>
                 <Card.Title>Card Title</Card.Title>
                 <Card.Text>
@@ -136,16 +138,16 @@ function Home() {
                 </Card.Text>
                 <Card.Img variant="top" src={Sarra} />
                 <div className='reaction__button'>
-                  <Button variant="primary">Like</Button>
-                  <Button variant="primary">Comment</Button>
-                  <Button variant="primary">Share</Button>
+                <Button variant="primary"> <AiOutlineLike />50.8k </Button>
+                  <Button variant="primary"> <BiMessage />40.3k </Button>
+                  <Button variant="primary"> <RiShareForwardLine />20.5k </Button>
                 </div>
               </Card.Body>
             </Card>
           </div>
 
           <div className='newsfeed__cards'>
-            <Card style={{ width: '18rem' }}>
+            <Card >
               <Card.Body>
                 <Card.Title>Card Title</Card.Title>
                 <Card.Text>
@@ -154,14 +156,14 @@ function Home() {
                 </Card.Text>
                 <Card.Img variant="top" src={Tic} />
                 <div className='reaction__button'>
-                  <Button variant="primary">Like</Button>
-                  <Button variant="primary">Comment</Button>
-                  <Button variant="primary">Share</Button>
+                  <Button variant="primary"> <AiOutlineLike />200.3k </Button>
+                  <Button variant="primary"> <BiMessage />500.6k </Button>
+                  <Button variant="primary"> <RiShareForwardLine />100.5k </Button>
                 </div>
               </Card.Body>
             </Card>
           </div>
-          
+
 
         </div>
       </div>
