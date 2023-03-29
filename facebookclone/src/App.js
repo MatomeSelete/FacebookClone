@@ -2,7 +2,8 @@ import ReactDOM from "react-dom/client";
 import { BrowserRouter, Routes, Route } from "react-router-dom";
 
 import 'bootstrap/dist/css/bootstrap.min.css';
-import {Home, NavBar, Friends, Shorts, Groups, Notification, Message,  Posts, Stories, NewsFeed } from './components'
+import {Home, NavBar, Friends, Shorts, Groups, Notification, Message,  } from './components'
+// import { Posts, Stories, NewsFeed, Comments } from './components/Home'
 
 import './App.css';
 
@@ -22,10 +23,10 @@ function App() {
           <Route path="message" element={<Message />} />
           <Route path="groups" element={<Groups />} />
           <Route path="notification" element={<Notification />} />
-          {/* <Route path="comments" element={<Comments />} /> */}
+          {/* <Route path="comments" element={<Comments />} />
           <Route path="posts" element={<Posts />} />
           <Route path="stories" element={<Stories />} />
-          <Route path="news feed" element={<NewsFeed />} />
+          <Route path="news feed" element={<NewsFeed />} /> */}
         </Route>
       </Routes>
     </BrowserRouter>

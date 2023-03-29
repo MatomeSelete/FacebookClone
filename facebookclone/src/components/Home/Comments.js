@@ -2,7 +2,7 @@
 import { Link, useNavigate, useParams } from "react-router-dom";
 import React, { useState } from 'react';
 
-import { NavBar, Friends, Shorts, Groups, Notification, Message, Comments, Posts, Stories, NewsFeed } from './components'
+// import { NavBar, Friends, Shorts, Groups, Notification, Message, Comments, Posts, Stories, NewsFeed } from './components'
 
 import Button from 'react-bootstrap/Button';
 import Modal from 'react-bootstrap/Modal';
