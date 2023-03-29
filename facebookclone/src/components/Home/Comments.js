@@ -2,7 +2,6 @@
 import { Link, useNavigate, useParams } from "react-router-dom";
 import React, { useState } from 'react';
 
-// import { NavBar, Friends, Shorts, Groups, Notification, Message, Comments, Posts, Stories, NewsFeed } from './components'
 
 import Button from 'react-bootstrap/Button';
 import Modal from 'react-bootstrap/Modal';
@@ -10,7 +9,7 @@ import Modal from 'react-bootstrap/Modal';
 import './Home.css'
 
 function Comments() {
-    // let navigate = useNavigate();
+    let navigate = useNavigate();
 
   const values = [true];
 
@@ -24,7 +23,7 @@ function Comments() {
 
     return (
         <>
-        {/* {values.map((v, idx) => (
+        {values.map((v, idx) => (
           <Button key={idx} className="me-2 mb-2" onClick={() => handleShow(v)}>
             Full screen
             {typeof v === 'string' && `below ${v.split('-')[0]}`}
@@ -36,7 +35,7 @@ function Comments() {
             <Modal.Title>Modal</Modal.Title>
           </Modal.Header>
           <Modal.Body>Modal body content</Modal.Body>
-        </Modal> */}
+        </Modal>
       </>
     )
 }
