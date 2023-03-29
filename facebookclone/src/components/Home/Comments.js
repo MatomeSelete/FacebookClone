@@ -9,35 +9,23 @@ import Modal from 'react-bootstrap/Modal';
 import './Home.css'
 
 function Comments() {
-    let navigate = useNavigate();
+  // let navigate = useNavigate();
 
-  const values = [true];
+  // const values = [true];
 
-  const [fullscreen, setFullscreen] = useState(true);
-  const [show, setShow] = useState(false);
+  // const [fullscreen, setFullscreen] = useState(true);
+  // const [show, setShow] = useState(false);
 
-  function handleShow(breakpoint) {
-    setFullscreen(breakpoint);
-    setShow(true);
-  }
+  // function handleShow(breakpoint) {
+  //   setFullscreen(breakpoint);
+  //   setShow(true);
+  // }
 
-    return (
-        <>
-        {values.map((v, idx) => (
-          <Button key={idx} className="me-2 mb-2" onClick={() => handleShow(v)}>
-            Full screen
-            {typeof v === 'string' && `below ${v.split('-')[0]}`}
-          </Button>
-        ))}
-
-        <Modal show={show} fullscreen={fullscreen} onHide={() => setShow(false)}>
-          <Modal.Header closeButton>
-            <Modal.Title>Modal</Modal.Title>
-          </Modal.Header>
-          <Modal.Body>Modal body content</Modal.Body>
-        </Modal>
-      </>
-    )
+  return (
+    <>
+      <h1>hello comments</h1>
+    </>
+  )
 }
 
 export default Comments

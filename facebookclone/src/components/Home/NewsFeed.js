@@ -55,6 +55,7 @@ function NewsFeed() {
                   ) : (
                     <Button className='cardIcon' onClick={handleNotification} > <AiFillLike /> 1.6 </Button>
                   )}
+                  
                   <Link variant="primary" className="btn mx-2" to="/comments"> <BiMessage />300 </Link>
                   <Button variant="primary"> <RiShareForwardLine />1k </Button>
                 </div>

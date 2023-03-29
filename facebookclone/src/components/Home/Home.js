@@ -7,7 +7,6 @@ import './Home.css'
 function Home() {
   return (
     <div>
-      <Comments />
            <Posts />
            <Stories />
            <NewsFeed />
