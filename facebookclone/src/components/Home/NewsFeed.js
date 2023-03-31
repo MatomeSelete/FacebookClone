@@ -67,10 +67,10 @@ function NewsFeed() {
             <Card >
               <Card.Body>
                 <Card.Title>Ciara</Card.Title>
-                <Card.Text>
+                {/* <Card.Text>
                   Some quick example text to build on the card title and make up the
                   bulk of the card's content.
-                </Card.Text>
+                </Card.Text> */}
                 <Card.Img variant="top" src={Ciara} />
                 <div className='reaction__button'>
                 {liked ? (
@@ -93,7 +93,7 @@ function NewsFeed() {
                   Some quick example text to build on the card title and make up the
                   bulk of the card's content.
                 </Card.Text>
-                <Card.Img variant="top" src={Sarra} />
+                {/* <Card.Img variant="top" src={Sarra} /> */}
                 <div className='reaction__button'>
                 {liked ? (
                     <Button className='cardIcon' onClick={handleNotificationNot} > <AiOutlineLike /> 70k </Button>

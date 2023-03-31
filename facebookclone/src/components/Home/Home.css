@@ -109,3 +109,17 @@
     background-color: whitesmoke;
     color: black;
 }
+
+.reactions,
+.searchpost {
+    display: flex;
+}
+
+.posts__div .comment__input {
+    width: 90%;
+    border: 2px solid red;
+}
+
+.searchpost {
+    border: 2px solid red;
+}
