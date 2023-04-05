@@ -79,7 +79,7 @@ function Comments() {
       {/* ================================== searchpost Section ======================================== */}
 
       <div className="searchpost">
-        <div className='posts__div comment__input'>
+        <div className='posts__div__comment__input'>
           <InputGroup className="mb-3">
             <Form.Control
               placeholder="Post a comment"
@@ -106,6 +106,26 @@ function Comments() {
               </Card.Text>
             </Card.Body>
           </Card>
+
+          <div className="Comment__reactions">
+            <Card >
+              <Card.Body>
+                  <div className="Comment__reaction">
+                    <div className="timestamp">
+                      <p>10hr</p>
+                    </div>
+                    <div className="likes">
+                      <p>Like</p>
+                    </div>
+                    <div className="reacted">
+                      <p> <AiFillLike /> </p>
+                    </div>
+                  </div>
+              </Card.Body>
+            </Card>
+          </div>
+
+
           <div className="responds">
             <Card >
               <Card.Body>
@@ -116,6 +136,8 @@ function Comments() {
               </Card.Body>
             </Card>
           </div>
+
+          
         </div>
 
         <div className="Comment">
