@@ -131,6 +131,7 @@
 .Comment,
 .responds {
     margin: 5px;
+    font-size: medium;
 }
 
 .Comment .card {
@@ -144,6 +145,7 @@
 .responds .card {
     background-color: rgb(227, 227, 227);
     width: 70%;
+    /* font-size: medium; */
 }
 .Comment__reactions .card{
     width: 80%;
@@ -154,10 +156,10 @@
 }
 
 .Comment__reaction {
-    border: 1px solid red;
     display: flex;
     height: 25px;
     margin-top: -20px;
+    margin-left: 12%;
     background-color: whitesmoke;
 }
 

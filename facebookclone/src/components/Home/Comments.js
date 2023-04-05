@@ -37,6 +37,14 @@ function Comments() {
   //   setShow(true);
   // }
 
+  // const handleClickScroll = () => {
+  //   const element = document.getElementById('section-1');
+  //   if (element) {
+  //     // 👇 Will scroll smoothly to the top of the next section
+  //     element.scrollIntoView({ behavior: 'smooth' });
+  //   }
+  // };
+
   return (
     <>
       <div className='newsfeed__cards'>
@@ -125,8 +133,13 @@ function Comments() {
             </Card>
           </div>
 
+          {/* <div className="replies">
+          <button className="btn-scroll" onClick={handleClickScroll}>
+          View more
+        </button>
+          </div> */}
 
-          <div className="responds">
+          <div id="section-1" className="responds">
             <Card >
               <Card.Body>
                 <Card.Text>
@@ -163,7 +176,7 @@ function Comments() {
         </div>
 
 
-        <div className="Comment">
+         <div className="Comment">
           <Card >
             <Card.Body>
               <Card.Text>
@@ -186,7 +199,7 @@ function Comments() {
         </div>
 
 
-        <div className="Comment">
+        {/* <div className="Comment">
           <Card >
             <Card.Body>
               <Card.Text>
@@ -205,7 +218,7 @@ function Comments() {
               </Card.Body>
             </Card>
           </div>
-        </div>
+        </div> */}
 
       </div>
     </ >
