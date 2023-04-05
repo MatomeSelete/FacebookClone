@@ -88,8 +88,9 @@ function Comments() {
             />
           </InputGroup>
         </div>
-        <Button variant="primary"> Post </Button>
-
+        <div className="postbtn">
+          <Button variant="primary"> Post </Button>
+        </div>
       </div>
 
 
@@ -102,10 +103,19 @@ function Comments() {
               <Card.Text>
                 Some quick example text to build on the card title and make up the
                 bulk of the card's content.
-
               </Card.Text>
             </Card.Body>
           </Card>
+          <div className="responds">
+            <Card >
+              <Card.Body>
+                <Card.Text>
+                  Some quick example text to build on the card title and make up the
+                  bulk of the card's content.
+                </Card.Text>
+              </Card.Body>
+            </Card>
+          </div>
         </div>
 
         <div className="Comment">
@@ -114,11 +124,22 @@ function Comments() {
               <Card.Text>
                 Some quick example text to build on the card title and make up the
                 bulk of the card's content.
-
               </Card.Text>
             </Card.Body>
           </Card>
+
+          <div className="responds">
+            <Card >
+              <Card.Body>
+                <Card.Text>
+                  Some quick example text to build on the card title and make up the
+                  bulk of the card's content.
+                </Card.Text>
+              </Card.Body>
+            </Card>
+          </div>
         </div>
+
 
         <div className="Comment">
           <Card >
@@ -126,11 +147,22 @@ function Comments() {
               <Card.Text>
                 Some quick example text to build on the card title and make up the
                 bulk of the card's content.
-
               </Card.Text>
             </Card.Body>
           </Card>
+
+          <div className="responds">
+            <Card >
+              <Card.Body>
+                <Card.Text>
+                  Some quick example text to build on the card title and make up the
+                  bulk of the card's content.
+                </Card.Text>
+              </Card.Body>
+            </Card>
+          </div>
         </div>
+
 
         <div className="Comment">
           <Card >
@@ -138,10 +170,19 @@ function Comments() {
               <Card.Text>
                 Some quick example text to build on the card title and make up the
                 bulk of the card's content.
-
               </Card.Text>
             </Card.Body>
           </Card>
+          <div className="responds">
+            <Card >
+              <Card.Body>
+                <Card.Text>
+                  Some quick example text to build on the card title and make up the
+                  bulk of the card's content.
+                </Card.Text>
+              </Card.Body>
+            </Card>
+          </div>
         </div>
 
       </div>
