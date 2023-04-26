@@ -37,6 +37,14 @@ function Comments() {
   //   setShow(true);
   // }
 
+  // const handleClickScroll = () => {
+  //   const element = document.getElementById('section-1');
+  //   if (element) {
+  //     // 👇 Will scroll smoothly to the top of the next section
+  //     element.scrollIntoView({ behavior: 'smooth' });
+  //   }
+  // };
+
   return (
     <>
       <div className='newsfeed__cards'>
@@ -79,7 +87,7 @@ function Comments() {
       {/* ================================== searchpost Section ======================================== */}
 
       <div className="searchpost">
-        <div className='posts__div comment__input'>
+        <div className='posts__div__comment__input'>
           <InputGroup className="mb-3">
             <Form.Control
               placeholder="Post a comment"
@@ -88,8 +96,9 @@ function Comments() {
             />
           </InputGroup>
         </div>
-        <Button variant="primary"> Post </Button>
-
+        <div className="postbtn">
+          <Button variant="primary"> Post </Button>
+        </div>
       </div>
 
 
@@ -102,10 +111,46 @@ function Comments() {
               <Card.Text>
                 Some quick example text to build on the card title and make up the
                 bulk of the card's content.
-
               </Card.Text>
             </Card.Body>
           </Card>
+
+          <div className="Comment__reactions">
+            <Card >
+              <Card.Body>
+                  <div className="Comment__reaction">
+                    <div className="timestamp">
+                      <p>10hr</p>
+                    </div>
+                    <div className="likes">
+                      <p>Like</p>
+                    </div>
+                    <div className="reacted">
+                      <p> <AiFillLike /> </p>
+                    </div>
+                  </div>
+              </Card.Body>
+            </Card>
+          </div>
+
+          {/* <div className="replies">
+          <button className="btn-scroll" onClick={handleClickScroll}>
+          View more
+        </button>
+          </div> */}
+
+          <div id="section-1" className="responds">
+            <Card >
+              <Card.Body>
+                <Card.Text>
+                  Some quick example text to build on the card title and make up the
+                  bulk of the card's content.
+                </Card.Text>
+              </Card.Body>
+            </Card>
+          </div>
+
+          
         </div>
 
         <div className="Comment">
@@ -114,35 +159,66 @@ function Comments() {
               <Card.Text>
                 Some quick example text to build on the card title and make up the
                 bulk of the card's content.
-
               </Card.Text>
             </Card.Body>
           </Card>
+
+          <div className="responds">
+            <Card >
+              <Card.Body>
+                <Card.Text>
+                  Some quick example text to build on the card title and make up the
+                  bulk of the card's content.
+                </Card.Text>
+              </Card.Body>
+            </Card>
+          </div>
         </div>
 
-        <div className="Comment">
+
+         <div className="Comment">
           <Card >
             <Card.Body>
               <Card.Text>
                 Some quick example text to build on the card title and make up the
                 bulk of the card's content.
-
               </Card.Text>
             </Card.Body>
           </Card>
+
+          <div className="responds">
+            <Card >
+              <Card.Body>
+                <Card.Text>
+                  Some quick example text to build on the card title and make up the
+                  bulk of the card's content.
+                </Card.Text>
+              </Card.Body>
+            </Card>
+          </div>
         </div>
 
-        <div className="Comment">
+
+        {/* <div className="Comment">
           <Card >
             <Card.Body>
               <Card.Text>
                 Some quick example text to build on the card title and make up the
                 bulk of the card's content.
-
               </Card.Text>
             </Card.Body>
           </Card>
-        </div>
+          <div className="responds">
+            <Card >
+              <Card.Body>
+                <Card.Text>
+                  Some quick example text to build on the card title and make up the
+                  bulk of the card's content.
+                </Card.Text>
+              </Card.Body>
+            </Card>
+          </div>
+        </div> */}
 
       </div>
     </ >
