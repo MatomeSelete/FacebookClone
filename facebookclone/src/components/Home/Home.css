@@ -117,9 +117,11 @@
 
 .posts__div .comment__input {
     width: 90%;
-    border: 2px solid red;
+    border: 2px solid red; 
+    height: auto;
+
 }
 
 .searchpost {
-    border: 2px solid red;
+    border: 2px solid blue;
 }
