@@ -1,3 +1,7 @@
+.home-post {
+    width: 99%;
+}
+
 .posts {
     /* border: 2px solid red; */
     display: flex;
@@ -121,9 +125,9 @@
     justify-content: center;
 }
 
-.postbtn {
-    /* border: 2px solid red; */
-}
+/* .postbtn {
+     border: 2px solid red; 
+} */
 
 
 /* ================= Comment ================*/
@@ -166,3 +170,20 @@
 .Comment__reaction div{
     margin: 5px;
 }
+
+
+/* On screens that are 992px or less, set the background color to blue */
+@media screen and (min-width: 600px) {
+    .home-post,
+    .Comments,
+    .searchpost,
+    .newsfeed__cards__id,
+    .reactions
+     
+        {
+        width: 45%;
+        margin-left: auto;
+        margin-right: auto;
+        
+    }
+  }

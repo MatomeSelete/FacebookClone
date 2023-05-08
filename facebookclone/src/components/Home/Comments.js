@@ -47,7 +47,11 @@ function Comments() {
 
   return (
     <>
+    <div className="newsfeed__cards__id">
+          
+          
       <div className='newsfeed__cards'>
+        
         <Card >
           <Card.Body>
             <Card.Title>Leo</Card.Title>
@@ -58,6 +62,7 @@ function Comments() {
             <Card.Img variant="top" src={Leo} />
           </Card.Body>
         </Card>
+      </div>
       </div>
 
 

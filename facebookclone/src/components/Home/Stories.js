@@ -62,6 +62,32 @@ function Stories() {
 
             </Card>
           </div>
+
+          <div className='stories__Cards'>
+            <Card >
+              <Card.Img variant="top" src={Ciara} />
+
+            </Card>
+          </div>
+
+          <div className='stories__Cards'>
+            <Card >
+              <Card.Img variant="top" src={Leo} />
+            </Card>
+          </div>
+
+          <div className='stories__Cards'>
+            <Card >
+              <Card.Img variant="top" src={Leo} />
+            </Card>
+          </div>
+
+          <div className='stories__Cards'>
+            <Card >
+              <Card.Img variant="top" src={Sarra} />
+            </Card>
+          </div>
+
         </div>
 
     </div>

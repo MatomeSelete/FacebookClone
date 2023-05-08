@@ -11,7 +11,7 @@
 
 .topnav__logo {
     color: rgba(66 103 178);
-
+ 
     
 }
 
@@ -35,3 +35,21 @@
  margin-left: auto;
  margin-right: auto;
 } */
+
+
+
+/* On screens that are 992px or less, set the background color to blue */
+@media screen and (min-width: 600px) {
+    .home-post,
+    .Comments,
+    .searchpost,
+    .newsfeed__cards__id,
+    .reactions
+     
+        {
+        width: 45%;
+        margin-left: auto;
+        margin-right: auto;
+        
+    }
+  }
