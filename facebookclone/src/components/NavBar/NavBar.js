@@ -1,6 +1,9 @@
 import React from 'react'
 import { Outlet, Link } from "react-router-dom";
 
+import  fbLogo  from '../images/fblogo.jpeg';
+
+
 import { GoSearch } from 'react-icons/go';
 import { HiMenu } from 'react-icons/hi';
 import { HiOutlineHome } from 'react-icons/hi';
@@ -26,6 +29,7 @@ function NavBar() {
       </div>
       
       <div className='bottomNav'>
+        <h3 className='bottomNav__link'> <Link to='/home'> <image src={fbLogo } /> </Link> </h3>
         <h3 className='bottomNav__link'> <Link to='/'> <HiOutlineHome /> </Link>  </h3>
         <h3 className='bottomNav__link'> <Link to='/friends'> <FaUserFriends /> </Link>  </h3>
         <h3 className='bottomNav__link'> <Link to='/message'> <TbMessageCircle /> </Link>  </h3>

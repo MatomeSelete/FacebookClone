@@ -40,16 +40,8 @@
 
 /* On screens that are 992px or less, set the background color to blue */
 @media screen and (min-width: 600px) {
-    .home-post,
-    .Comments,
-    .searchpost,
-    .newsfeed__cards__id,
-    .reactions
-     
-        {
-        width: 45%;
-        margin-left: auto;
-        margin-right: auto;
+    .topnav__icons {
+        display: none;
         
     }
   }
