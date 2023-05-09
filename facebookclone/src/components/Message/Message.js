@@ -5,7 +5,18 @@ import './Message.css'
 
 function Message() {
 
+  const [selectedChat, setSelectedChat] = useState(0);
+  const [message, setMessage] = useState('');
 
+  const handleChatClick = (id) => {
+    setSelectedChat(id);
+  };
+
+  // const handleSend = () => {
+  //   if (message) {
+  //     setChats((prevChats) =>
+  //   }
+  // }
 
 
   const [chats, setChats] = useState([
@@ -63,18 +74,9 @@ function Message() {
     },
   ]);
 
-  const [selectedChat, setSelectedChat] = useState(0);
-  const [message, setMessage] = useState('');
+  
 
-  const handleChatClick = (id) => {
-    setSelectedChat(id);
-  };
 
-  // const handleSend = () => {
-  //   if (message) {
-  //     setChats((prevChats) =>
-  //   }
-  // }
 
   
   return (
