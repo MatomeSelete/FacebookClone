@@ -40,7 +40,6 @@ function Stories() {
           <div className='stories__Cards'>
             <Card >
               <Card.Img variant="top" src={Ciara} />
-
             </Card>
           </div>
 

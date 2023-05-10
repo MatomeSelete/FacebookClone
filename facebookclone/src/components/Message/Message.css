@@ -1,3 +1,5 @@
+/* ==================== SEARCHING FOR PEOPLE AND PAGES IN YOUR INBOX ================ */
+
 .messangersearch {
   display: flex;
   background-color: white;
@@ -20,9 +22,16 @@
   border-bottom-left-radius: 10% ;
 }
 
+.OnlineChats___cards {
+    margin-top: 3%;
+    background-color: white;
+    padding: 3%;
+}
 
-.card {
-    height: 20%;
+/* ==================== PEOPLE WHO ARE ONLINE  IN INBOX ================ */
+
+.OnlineChats___cards .card {
+    height: 14%;
     width: 18%;
     border-radius: 60%;
 }
@@ -30,4 +39,16 @@
 .card image {
     width: fit-content;
     height:fit-content;
+}
+
+.OnlineChats___cards {
+    display: flex;
+    overflow-y: auto;
+
+}
+
+.OnlineChats___cards  img {
+    height: 100%;
+    width: 100%;
+    border-radius: 60%;
 }
