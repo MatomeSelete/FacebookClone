@@ -1,9 +1,11 @@
 import React from 'react'
 
-function onlineChats() {
+function OnlineChats() {
   return (
-    <div>onlineChats</div>
+    <div>
+        
+    </div>
   )
 }
 
-export default onlineChats
+export default OnlineChats

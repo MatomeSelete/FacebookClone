@@ -1,21 +1,25 @@
-import React from 'react'
+import React from "react";
 
-function messagersearch() {
+import { BiSearch } from "react-icons/bi";
+
+function Messagersearch() {
   return (
     <div>
-        <div>
-            <image alt="" src={"logo"}/>
-        </div>
+      <div>
+        <image alt="" src={"logo"} />
+        <h2>Messager</h2>
+      </div>
 
-        <div className='search'>
-            <div class="mb-3">
-                <label for="exampleFormControlInput1" class="form-label">Email address</label>
-                <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="name@example.com" />
-            </div>
+      <div className="search">
+        <div className="messangersearch">
+          <input type="search" placeholder="Search name, pages" />
+          <div className="search__icon">
+            <BiSearch />
+          </div>
         </div>
-
+      </div>
     </div>
-  )
+  );
 }
 
-export default messagersearch
+export default Messagersearch;

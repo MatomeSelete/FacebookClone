@@ -1,5 +1,5 @@
 
 
-export { default as onlineChats} from './onlineChats';
-export { default as messagerearch} from './messagersearch';
-export { default as chats} from './chats';
+export { default as OnlineChats} from './onlineChats';
+export { default as Messagerearch} from './messagersearch';
+export { default as Chats} from './chats';
