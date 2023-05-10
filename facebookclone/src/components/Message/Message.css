@@ -4,14 +4,14 @@
   display: flex;
   background-color: white;
   width: 95%;
-  box-shadow: 0.5px 1px  #181717;
+  box-shadow: 0.5px 1px #181717;
   /* border-radius: 10%; */
 }
 
 .messangersearch input {
   width: 93%;
   border: none;
-  border-bottom-right-radius: 0 ;
+  border-bottom-right-radius: 0;
 }
 
 .search__icon {
@@ -19,41 +19,70 @@
   width: 12%;
   padding: 10px;
   background-color: white;
-  border-bottom-left-radius: 10% ;
+  border-bottom-left-radius: 10%;
 }
-
-
 
 /* ==================== PEOPLE WHO ARE ONLINE  IN INBOX ================ */
 .OnlineChats___cards {
-    border: 2px solid red;
-    display: flex;
-    overflow-y: auto;
-    /* height: initial; */
-    width: 100%; 
-    
-}
-
-.OnlineChats___cards {
-    margin-top: 3%;
-    background-color: white;
-    padding: 3%;
+  /* border: 2px solid red; */
+  display: flex;
+  overflow-y: auto;
+  width: 100%;
+  margin-top: 3%;
+  background-color: white;
+  padding: 3%;
 }
 
 .OnlineChats___cards .card {
-    height: 14%;
-    width: 18%;
-    border-radius: 60%;
+  height: 14%;
+  width: 18%;
+  border-radius: 60%;
 }
 
 .card image {
-    width: fit-content;
-    height:fit-content;
+  width: fit-content;
+  height: fit-content;
 }
 
+.OnlineChats___cards img {
+  height: 100%;
+  width: 100%;
+  border-radius: 60%;
+}
 
-.OnlineChats___cards  img {
-    height: 100%;
-    width: 100%;
-    border-radius: 60%;
+/* ==================== chats you can interact with  ================ */
+.chatsCards {
+  margin-top: 3%;
+  width: 100%;
+  overflow: scroll;
+
+  background-color: aqua;
+}
+
+.chatsCards div {
+  display: inline-block;
+}
+
+.chatsCards .card img {
+  height: 14%;
+  width: 18%;
+  border-radius: 60%;
+}
+
+.chatsCards .card img {
+  height: 90%;
+  width: 90%;
+  border-radius: 60%;
+}
+
+.chatimg {
+  width: 15%;
+  border-radius: 60%;
+  /* margin-bottom: 15%; */
+  margin-right: 1%;
+}
+
+.nameText {
+  width: 80%;
+  padding-bottom: 4%;
 }
