@@ -22,13 +22,23 @@
   border-bottom-left-radius: 10% ;
 }
 
+
+
+/* ==================== PEOPLE WHO ARE ONLINE  IN INBOX ================ */
+.OnlineChats___cards {
+    border: 2px solid red;
+    display: flex;
+    overflow-y: auto;
+    /* height: initial; */
+    width: 100%; 
+    
+}
+
 .OnlineChats___cards {
     margin-top: 3%;
     background-color: white;
     padding: 3%;
 }
-
-/* ==================== PEOPLE WHO ARE ONLINE  IN INBOX ================ */
 
 .OnlineChats___cards .card {
     height: 14%;
@@ -41,11 +51,6 @@
     height:fit-content;
 }
 
-.OnlineChats___cards {
-    display: flex;
-    overflow-y: auto;
-
-}
 
 .OnlineChats___cards  img {
     height: 100%;
