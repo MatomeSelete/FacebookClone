@@ -24,13 +24,12 @@
 
 /* ==================== PEOPLE WHO ARE ONLINE  IN INBOX ================ */
 .OnlineChats___cards {
-  /* border: 2px solid red; */
   display: flex;
-  overflow-y: auto;
   width: 100%;
   margin-top: 3%;
   background-color: white;
   padding: 3%;
+  border: 2px solid red;
 }
 
 .OnlineChats___cards .card {
