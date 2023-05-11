@@ -5,7 +5,7 @@ import Ciara from "../images/Ciara.jpeg";
 function Chats() {
   return (
     <div className="container">
-      <div className="chatsCards">
+      <div className="chatsCards overflow-auto">
         <div class="card">
           <div className="chatimg"> 
             <img src={Ciara} class="card-img-top" alt="..." />
