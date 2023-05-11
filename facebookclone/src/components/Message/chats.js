@@ -23,7 +23,7 @@ function Chats() {
           </div>
 
           <div class="nameText">
-            <h5 class="card-text">Some quick</h5>
+            <h6 class="card-text">Ciara</h6>
             <p>scrollbar is added to scroll.</p>
           </div>
         </div>
