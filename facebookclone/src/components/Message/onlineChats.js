@@ -13,15 +13,15 @@ function OnlineChats() {
   return (
     <div className="container ">
 
-      <div className="OnlineChats___cards overflow-y-scroll">
-        <div className="card ">
+      <div className="OnlineChats___cards overflow-x-auto">
+
+        <div className=" card ">
           <div className="card-body">
-            {/* <img src="../images/Ciara.jpeg"  alt="..." /> */}
             <img src={Ciara} alt="..." />
           </div>
         </div>
 
-        <div class="card">
+        <div class=" card">
           <div class="card-body">
             <p class="card-text">
               <img src={Leo} class="card-img-top" alt="..." />
@@ -45,7 +45,7 @@ function OnlineChats() {
           </div>
         </div>
 
-        {/* <div class="card">
+          <div class="card">
           <div class="card-body">
             <p class="card-text">
               <img src={Sarra} class="card-img-top" alt="..." />
@@ -53,7 +53,7 @@ function OnlineChats() {
           </div>
         </div>
 
-        <div class="card">
+       {/* <div class="card">
           <div class="card-body">
             <p class="card-text">
               <img src={Leo} class="card-img-top" alt="..." />
@@ -67,7 +67,7 @@ function OnlineChats() {
               <img src={Matome} class="card-img-top" alt="..." />
             </p>
           </div>
-        </div> */}
+        </div>  */}
          
       </div>
     </div>

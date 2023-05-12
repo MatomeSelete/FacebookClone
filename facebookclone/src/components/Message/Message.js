@@ -1,26 +1,20 @@
 // import React from 'react'
-import React from 'react';
+import React from "react";
 
-import { Messagerearch, OnlineChats, Chats } from './index'
+import { Messagerearch, OnlineChats, Chats } from "./index";
 
-import './Message.css'
+import "./Message.css";
 
 function Message() {
-  
   return (
-    
-    <div className='container'>
-
+    <>
       <Messagerearch />
-      <OnlineChats />
-      <Chats />
-
-    </div>
-    
-  )
+      <div className="inboxBody">
+        <OnlineChats />
+        <Chats />
+      </div>
+    </>
+  );
 }
 
-
-
-
-export default Message
+export default Message;
