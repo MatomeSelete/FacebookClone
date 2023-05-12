@@ -95,12 +95,6 @@
   /* padding-top: -4%; */
 }
 
-.Inbox {
-  background-color: white;
-  height: 100vh;
-  width: 60%;
-}
-
 /* https://dribbble.com/shots/7833306-Facebook-Messenger-Redesigned-UI-Design */
 
 /* https://www.google.com/search?q=2023+facebook+inbox+ui+image&tbm=isch&ved=2ahUKEwiy5Iy0rur-AhV-ricCHdUEB1wQ2-cCegQIABAA&oq=2023+facebook+inbox+ui+image&gs_lcp=CgNpbWcQAzoECCMQJ1DkBljGGmDgH2gAcAB4AIABogSIAdwckgEJMi0yLjUuMi4xmAEAoAEBqgELZ3dzLXdpei1pbWfAAQE&sclient=img&ei=xFlbZLLyMP7cnsEP1Ymc4AU&bih=789&biw=1440#imgrc=ujTbIsccosYFzM */
@@ -154,7 +148,7 @@
     height: 48%;
     width: 90%;
     border-radius: 60%;
-    border: 1px solid green;
+    /* border: 1px solid green; */
   }
 
   /* =========================== CODE FOR SHOING PEOPLE IN YOUR INBOX ON A DESKTOP ========================== */
@@ -165,6 +159,7 @@
   .chatsCards {
     margin-top: 1%;
     margin-left: 2%;
+    padding: 2%;
     width: 40%;
     overflow: scroll;
     height: 59vh;
@@ -182,6 +177,16 @@
     height: 60%;
     width: 60%;
     border-radius: 60%;
+  }
+
+  /* =========================== CODE FOR CHATTING WITH PEOPLE IN YOUR INBOX ON A DESKTOP ========================== */
+
+  .Inbox {
+    margin-top: 1%;
+    margin-left: 20%;
+    background-color: white;
+    height: 59vh;
+    width: 70%;
   }
 
 }

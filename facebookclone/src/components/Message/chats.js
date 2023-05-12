@@ -7,7 +7,7 @@ import Sarra from '../images/Sarra.jpeg';
 
 function Chats() {
   return (
-    <div className="container ">
+    <div >
       <div className="chatsCards ">
         <div class="card ">
           <div className="chatimg"> 
