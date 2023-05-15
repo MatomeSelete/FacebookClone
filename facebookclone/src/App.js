@@ -1,16 +1,12 @@
-import ReactDOM from "react-dom/client";
+import ReactDOM from "react-dom";
 import { BrowserRouter, Routes, Route } from "react-router-dom";
+
 
 import "bootstrap/dist/css/bootstrap.min.css";
 import { Home, NavBar, Friends, Shorts, Groups, Notification, Message } from "./components";
 import { Posts, Stories, NewsFeed, Comments } from "./components/Home";
 import { Messagerearch, OnlineChats, Chats, Inbox } from "./components/Message";
 import { SideBar, FriendsList, FriendsReuest, Birthdays, } from './components/Friends';
-
-// import { SideBar } from "./components/Friends/SideBar";
-// import { FriendsList } from "./components/Friends/FriendsList";
-// import { FriendsReuest } from "./components/Friends/FriendsRequest";
-// import { Birthdays } from "./components/Friends/Birthdays";
 
 import "./App.css";
 
@@ -20,22 +16,30 @@ function App() {
       {/* <Home /> */}
 
       <BrowserRouter>
+
+      <NavBar />
         <Routes>
 
-             <Route path="/" element={<NavBar />}>
              <Route path="" element={<Home />} >
-                <Route path="./components/Home/Posts.js" element={<Posts />}> </Route>
-                <Route path="./components/Home/Stories.js" element={<Stories />}> </Route>
-                <Route path="./components/Home/NewsFeed.js" element={<NewsFeed />}> </Route>
-                <Route path="./components/Home/Comments.js" element={<Comments />}> </Route>
+                <Route path="/Posts" element={<Posts />}> </Route>
+                <Route path="/Stories" element={<Stories />}> </Route>
+                <Route path="NewsFeed" element={<NewsFeed />}> </Route>
+                <Route path="/Comments" element={<Comments />}> </Route>
               </Route>  
 
               <Route path="/friends" element={<Friends />} >
-                <Route path="./components/Friends/SideBar.js" element={<SideBar />}> </Route>
-                <Route path="./components/Friends/FriendsList.js" element={<FriendsList />}> </Route>
-                <Route path="./components/Friends/FriendsRequest.js" element={<FriendsReuest />}> </Route>
-                <Route path="./components/Friends/Birthdays.js" element={<Birthdays />}> </Route>
+                <Route path="SideBar" element={<SideBar />}> </Route>
+                <Route path="FriendsList" element={<FriendsList />}> </Route>
+                <Route path="FriendsRequest" element={<FriendsReuest />}> </Route>
+                <Route path="Birthdays" element={<Birthdays />}> </Route>
               </Route>
+
+              {/* <Route path="/friends" element={<Friends />} >
+            <Route path="/sidebar" element={<SideBar />} />
+            <Route path="/friendslist" element={<FriendsList />} />
+            <Route path="/friendsrequest" element={<FriendsReuest />} />
+            <Route path="/birthdays" element={<Birthdays />} />
+          </Route> */}
 
               <Route path="shorts" element={<Shorts />} >
 
@@ -43,9 +47,9 @@ function App() {
 
             <Route path="Message" element={<Message />} >
               <Route path="Messagersearch.js" element={<Messagerearch />}> </Route>
-              <Route path="./components/Message/OnlineChats.js" element={<OnlineChats />}> </Route>
-              <Route path="./components/Message/Chats.js" element={<Chats />}> </Route>
-              <Route path="./components/Message/Inbox.js" element={<Inbox />}> </Route>
+              <Route path="OnlineChats" element={<OnlineChats />}> </Route>
+              <Route path="Chats" element={<Chats />}> </Route>
+              <Route path="Inbox" element={<Inbox />}> </Route>
             </Route>
 
             <Route path="groups" element={<Groups />} >
@@ -56,7 +60,6 @@ function App() {
 
             </Route>
 
-          </Route>
         </Routes>
       </BrowserRouter>
     </div>

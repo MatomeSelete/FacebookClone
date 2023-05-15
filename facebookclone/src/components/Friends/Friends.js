@@ -8,12 +8,7 @@ import './Friends.css'
 function Friends() {
   return (
     <div>
-      <SideBar/>
-      <div>
-        <FriendsList />
-        <FriendsReuest />
-        <Birthdays />
-      </div>
+      <SideBar/>      
 
     </div>
   )
