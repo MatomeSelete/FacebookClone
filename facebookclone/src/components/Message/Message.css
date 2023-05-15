@@ -56,6 +56,11 @@
 }
 
 /* ==================== chats you can interact with  ================ */
+.chatsBody {
+  width: 100%;
+  padding: 0;
+}
+
 .chatsCards {
   margin-top: 3%;
   width: 100%;
@@ -94,6 +99,68 @@
   width: 80%;
   /* padding-top: -4%; */
 }
+
+/* ==================== Inbox chats and text box  ================ */
+/* .Inbox {
+  display: none;
+} */
+
+
+.inboxBody {
+  margin: 0 auto;
+  max-width: 800px;
+  padding: 0 20px;
+  height: 100vh;
+} 
+
+.container {
+  border: 2px solid #dedede;
+  background-color: #f1f1f1;
+  border-radius: 5px;
+  padding: 10px;
+  margin: 10px 0;
+}
+
+.darker {
+  border-color: #ccc;
+  background-color: #ddd;
+}
+
+.container::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+
+.container .inboxImg {
+  float: left;
+  max-width: 60px;
+  width: 100%;
+  margin-right: 20px;
+  border-radius: 50%;
+}
+
+.container img.right {
+  float: right;
+  max-width: 60px;
+  width: 100%;
+  margin-left: 20px;
+  margin-right:0;
+  border-radius: 50%;
+}
+
+.time-right {
+  float: right;
+  color: #aaa;
+}
+
+.time-left {
+  float: left;
+  color: #999;
+}  
+
+
+
 
 /* https://dribbble.com/shots/7833306-Facebook-Messenger-Redesigned-UI-Design */
 
@@ -151,14 +218,19 @@
     /* border: 1px solid green; */
   }
 
-  /* =========================== CODE FOR SHOING PEOPLE IN YOUR INBOX ON A DESKTOP ========================== */
+  /* =========================== CODE FOR SHOWING PEOPLE IN YOUR INBOX ON A DESKTOP ========================== */
   /* .chatsCards {
     margin-top: 1%;
   } */
 
+  .chatsBody {
+    width: 80%;
+    padding: 0;
+  }
+
   .chatsCards {
     margin-top: 1%;
-    margin-left: 2%;
+    /* margin-left: 2%; */
     padding: 2%;
     width: 40%;
     overflow: scroll;
@@ -186,7 +258,7 @@
     margin-left: 20%;
     background-color: white;
     height: 59vh;
-    width: 71%;
+    width: 70%;
   }
 
 }

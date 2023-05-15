@@ -10,7 +10,7 @@ function Message() {
     <>
       <Messagerearch />
       <div className="inboxBody  ">
-        <OnlineChats />
+        {/* <OnlineChats /> */}
         <Chats />
         <Inbox />
       </div>
