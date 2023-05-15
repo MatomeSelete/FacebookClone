@@ -23,8 +23,8 @@ function App() {
 
       <BrowserRouter>
         <Routes>
-          <Route path="/dash" element={<Navbar />}>
-            {/* <Route path="pack" element={<Pack />}></Route>
+         {/* <Route path="/dash" element={<Navbar />} >
+             <Route path="pack" element={<Pack />}></Route>
               <Route path="form" element={<Form />}></Route>
 
               </Route> */}
