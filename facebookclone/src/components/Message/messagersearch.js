@@ -8,7 +8,7 @@ function Messagersearch() {
       <div className="search">
       <div>
         <image alt="" src={"logo"} />
-        <h2>Messager</h2>
+        {/* <h2>Messager</h2> */}
       </div>
         <div className="messangersearch">
           <input type="search" placeholder="Search name, pages" />

@@ -110,7 +110,7 @@
   margin: 0 auto;
   max-width: 800px;
   padding: 0 20px;
-  height: 100vh;
+  height: 59vh;
 } 
 
 .container {
@@ -171,9 +171,7 @@
 
 /* On screens that are 992px or less, set the background color to blue */
 @media screen and (min-width: 700px) {
-  .inboxBody {
-    display: flex;
-  }
+
 
   .messangersearch,
   .OnlineChats___cards,
@@ -198,25 +196,24 @@
   /* =========================== CODE FOR SHOING WHO IS ONLINE ON A DESKTOP ========================== */
 
   .OnlineChats___cards {
-    display: inline-block;
-    width: 50%;
-    height: auto;
+    display: none;
+    width: 30%;
+    height: 59vh;
     margin-top: 3%;
     background-color: white;
     padding: 3%;
     border-radius: 5%;
-    
   }
 
    
 
-  .OnlineChats___cards .card {
+  /* .OnlineChats___cards .card {
     margin: 2px;
-    height: 48%;
-    width: 90%;
+    height: 18%;
+    width: 60%;
     border-radius: 60%;
-    /* border: 1px solid green; */
-  }
+    border: 1px solid green; 
+  } */
 
   /* =========================== CODE FOR SHOWING PEOPLE IN YOUR INBOX ON A DESKTOP ========================== */
   /* .chatsCards {
@@ -224,7 +221,7 @@
   } */
 
   .chatsBody {
-    width: 80%;
+    width: 60%;
     padding: 0;
   }
 
@@ -232,7 +229,7 @@
     margin-top: 1%;
     /* margin-left: 2%; */
     padding: 2%;
-    width: 40%;
+    width: 90%;
     overflow: scroll;
     height: 59vh;
     background-color: white;
@@ -252,6 +249,10 @@
   }
 
   /* =========================== CODE FOR CHATTING WITH PEOPLE IN YOUR INBOX ON A DESKTOP ========================== */
+
+  .inboxBody {
+    display: flex;
+  }
 
   .Inbox {
     margin-top: 1%;

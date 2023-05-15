@@ -1,4 +1,5 @@
 import React from "react";
+import { Link, useNavigate, useParams } from "react-router-dom"; 
 
 import Tic from '../images/ticTacToe.png';
 import Leo from '../images/Leo.jpeg';
@@ -6,10 +7,17 @@ import Ciara from '../images/Ciara.jpeg';
 import Sarra from '../images/Sarra.jpeg';
 
 function Chats() {
+  const navigate = useNavigate();
+
+  const handleClick = () => {
+    // Navigate to a different route
+    navigate('../Home/Home.js');
+  };
+
   return (
     <div className="chatsBody" >
       <div className="chatsCards ">
-        <div class="card ">
+        <button class="card " onClick={handleClick}>
           <div className="chatimg"> 
             <img src={Ciara} class="card-img-top" alt="..." />
           </div>
@@ -18,7 +26,7 @@ function Chats() {
             <h5 class="card-text">Ciara</h5>
             <p>scrollbar is added to scroll.</p>
           </div>
-        </div>
+        </button>
 
         <div class="card">
           <div className="chatimg"> 

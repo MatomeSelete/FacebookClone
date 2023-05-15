@@ -11,7 +11,7 @@ import tic from "../images/ticTacToe.png";
 
 function OnlineChats() {
   return (
-    <div className="container ">
+    
 
       <div className="OnlineChats___cards overflow-x-auto">
 
@@ -70,7 +70,6 @@ function OnlineChats() {
         </div>  */}
          
       </div>
-    </div>
   );
 }
 

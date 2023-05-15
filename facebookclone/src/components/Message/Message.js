@@ -9,8 +9,8 @@ function Message() {
   return (
     <>
       <Messagerearch />
-      <div className="inboxBody  ">
-        {/* <OnlineChats /> */}
+      <div className="inboxBody ">
+        <OnlineChats />
         <Chats />
         <Inbox />
       </div>
