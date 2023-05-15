@@ -1,14 +1,33 @@
+/* ============================= SIDEBAR LIST STYLING  ========================== */
 .sideBarBody {
+    background-color: whitesmoke;
     display: flex;
-    width: 20%;
+    width: 100%;
     height: 80vh;
-    border: 1px solid red;
+    margin-right: 20%; 
 }
 
-.sideBar  {
+/* .sideBar  {
 
 }
 
 .sideBar p {
     
+} */
+
+/* ============================= FRIENDS LIST STYLING  ========================== */
+
+.friensListCards {
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+    margin-left: auto;
+    margin-right: auto;
+    
+    background-color: white;
 }
+
+.friendsButtons {
+
+}
+

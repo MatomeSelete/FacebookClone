@@ -9,7 +9,7 @@ function SideBar() {
         <div className='sideBar'>
           <p className='bottomNav__link'> <Link to='FriendsList'> Home </Link> </p>
           <p className='bottomNav__link'> <Link to='FriendsRequest'> Friend request </Link>  </p>
-          <p className='bottomNav__link'> <Link to=''> Friends </Link>  </p>
+          <p className='bottomNav__link'> <Link to='Friends'> Friends </Link>  </p>
           <p className='bottomNav__link'> <Link to='Birthdays'> Birthdays </Link>  </p>
         </div>
     <hr/>
