@@ -11,13 +11,13 @@ function Chats() {
 
   const handleClick = () => {
     // Navigate to a different route
-    navigate('../Home/Home.js');
+    navigate('./Inbox.js');
   };
 
   return (
     <div className="chatsBody" >
       <div className="chatsCards ">
-        <button class="card " onClick={handleClick}>
+        <button class="card " onClick={handleClick} >
           <div className="chatimg"> 
             <img src={Ciara} class="card-img-top" alt="..." />
           </div>

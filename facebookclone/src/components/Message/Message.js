@@ -12,7 +12,7 @@ function Message() {
       <div className="inboxBody ">
         <OnlineChats />
         <Chats />
-        <Inbox />
+        {/* <Inbox /> */}
       </div>
     </>
   );

@@ -1,10 +1,21 @@
-import React from 'react'
+import React from 'react';
+
+import { SideBar, FriendsList, FriendsReuest, Birthdays, } from './index';
+
 
 import './Friends.css'
 
 function Friends() {
   return (
-    <div>Posts</div>
+    <div>
+      <SideBar/>
+      <div>
+        <FriendsList />
+        <FriendsReuest />
+        <Birthdays />
+      </div>
+
+    </div>
   )
 }
 
