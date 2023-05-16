@@ -6,7 +6,7 @@ import "bootstrap/dist/css/bootstrap.min.css";
 import { Home, NavBar, Friends, Shorts, Groups, Notification, Message } from "./components";
 import { Posts, Stories, NewsFeed, Comments } from "./components/Home";
 import { Messagerearch, OnlineChats, Chats, Inbox } from "./components/Message";
-import { SideBar, FriendsList, FriendsReuest, Birthdays, } from './components/Friends';
+import { SideBar, FriendsList, FriendsReuest, Birthdays, FriendsHome } from './components/Friends';
 
 import "./App.css";
 
@@ -29,6 +29,7 @@ function App() {
 
               <Route path="/friends" element={<Friends />} >
                 <Route path="SideBar" element={<SideBar />}> </Route>
+                <Route path="FriendsHome" element={<FriendsHome />}> </Route>
                 <Route path="FriendsList" element={<FriendsList />}> </Route>
                 <Route path="FriendsRequest" element={<FriendsReuest />}> </Route>
                 <Route path="Birthdays" element={<Birthdays />}> </Route>

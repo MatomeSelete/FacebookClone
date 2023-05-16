@@ -1,6 +1,6 @@
 import React from 'react'
 
-function FriendsRequesta() {
+function FriendsHome() {
   return (
     <div className="friensListCards overflow-scroll">
     <div
@@ -294,4 +294,4 @@ function FriendsRequesta() {
   )
 }
 
-export default FriendsRequesta
+export default FriendsHome

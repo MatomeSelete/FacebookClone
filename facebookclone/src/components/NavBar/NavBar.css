@@ -11,8 +11,6 @@
 
 .topnav__logo {
     color: rgba(66 103 178);
- 
-    
 }
 
 .topnav__icons {
@@ -42,6 +40,10 @@
 @media screen and (min-width: 600px) {
     .topnav__icons {
         display: none;
-        
     }
+
+    .navbar__page {
+        width: 100%;
+    }
+    
   }

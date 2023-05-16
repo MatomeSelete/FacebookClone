@@ -4,14 +4,23 @@
     display: flex;
     width: 100%;
     height: 80vh;
-    margin-right: 20%; 
+    padding-left: 5%;
+}
+.bottomNav__link {
+    font-size: 20px;
+    text-decoration: none;
 }
 
-/* .sideBar  {
+link {
+    text-decoration: none;
+}
+
+ .sideBar  {
+    width: 20%;
 
 }
 
-.sideBar p {
+/* .sideBar p { 
     
 } */
 
@@ -20,14 +29,30 @@
 .friensListCards {
     display: flex;
     flex-wrap: wrap;
+    justify-content: space-evenly;
     width: 100%;
-    margin-left: auto;
-    margin-right: auto;
-    
+    height: 75vh;
+    padding-top: 1%;
+    margin-left: 8%;
     background-color: white;
 }
 
-.friendsButtons {
+.friendscards {
+    margin: 1%;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
 
+.friendsButtons .btn {
+    margin-left: auto;
+    margin-right: auto;
+    width: 170px; 
+    height: 30px;
+    margin: 1%;
+    width: 100%;
+}
+
+.friendscards img {
+    width: 12rem;
+    height: 19rem;
 }
 
