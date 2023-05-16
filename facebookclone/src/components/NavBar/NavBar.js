@@ -18,7 +18,7 @@ import './NavBar.css'
  
 function NavBar() {
   return (
-    <div className='navbar__page container'>
+    <div className='navbar__page '>
       <div className='topNav' >
         <h1 className='topnav__logo'>facebook</h1>
         <div className='topnav__icons'>
