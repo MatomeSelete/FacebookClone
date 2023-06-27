@@ -17,6 +17,7 @@ import { HiUserGroup } from 'react-icons/hi';
 import './NavBar.css'
  
 function NavBar() {
+  
   return (
     <div className='navbar__page '>
       <div className='topNav' >
