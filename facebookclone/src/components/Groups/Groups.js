@@ -7,7 +7,7 @@ function Groups() {
     <div>
       <div className='newsfeed__cards'>
         
-        <Card >
+        {/* <Card >
           <Card.Body>
             <Card.Title>Leo</Card.Title>
             <Card.Text>
@@ -16,7 +16,7 @@ function Groups() {
             </Card.Text>
             <Card.Img variant="top" src={Leo} />
           </Card.Body>
-        </Card>
+        </Card> */}
       </div>
     </div>
   )
